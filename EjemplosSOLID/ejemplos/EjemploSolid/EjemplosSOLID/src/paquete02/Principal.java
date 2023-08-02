@@ -28,19 +28,8 @@ public class Principal {
         
         op1.establecerEstudiante(lista);
         op1.establecerPromedioEdades();
-        
-        System.out.printf("%s\n",
-                op1.obtenerPromedioEdades());
-        
         op1.establecerEdadMinima();
-        
-        System.out.printf("%s\n",
-                op1.obtenerEdadMinima());
-        
-         op1.establecerEdadMaxima();
-        
-        System.out.printf("%s\n",
-                op1.obtenerEdadMaxima());
+        op1.establecerEdadMaxima();
         
         System.out.printf("Promedio Edades: %.2f\n"
                 + "Edad Mínima: %d\n"
@@ -51,6 +40,6 @@ public class Principal {
                 op1.obtenerEdadMaxima(),
                 op1.obtenerListaCiudadesEstudiantes());
         
-        
     }
+    
 }
